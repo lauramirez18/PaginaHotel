@@ -2,7 +2,7 @@
     <div class="body-rooms">
         <div class="col-6">
         <q-img class="img-inicio"
-            src="https://www.fourseasons.com/alt/img-opt/~80.1530.0,0000-282,4779-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/BOR/BOR_1567_original.jpg">
+            src="https://digital.ihg.com/is/image/ihg/intercontinental-bora-bora-4842574703-3x2">
             <div class="absolute-bottom text-subtitle1 text-center">
                 <h3>Alojamientos</h3>
                 <h5>Bora Bora</h5>
@@ -73,11 +73,11 @@ const cards = ref([
     },
     {
         name: 'Suite sobre el agua con Piscina Privada',
-        img: 'https://blog.desalas.com/wp-content/uploads/2022/02/bungalows_atolon_baa1-1024x682.jpeg',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/97/fe/1c/beach-villa-with-pool.jpg?w=1400&h=-1&s=1',
         descripcion: 'Esta suite ofrece el lujo máximo con dos habitaciones, una piscina de inmersión privada y vistas inigualables del océano.',
         precio: ' 6.800.000'
     },
-    {  name: 'Villa Premier sobre el agua con vista al amanecer',
+    {  name: 'Villa Premier con vista al amanecer',
         img: 'https://www.myboutiquehotel.com/photos/8997/four-seasons-resort-bora-bora-bora-bora-054-99787-1110x700.jpg',
         descripcion: 'Disfruta de la vista al amanecer desde esta villa sobre el agua con piscina privada y acceso directo al agua.',
         precio: ' 6.000.000'
@@ -95,17 +95,36 @@ const cards = ref([
         precio: '4.800.000  '
     },
     {
-        name: 'Villa familiar de lujo a pie de playa con tres habitaciones',
+        name: 'Villa familiar de lujo a pie de playa',
         img: 'https://images.squarespace-cdn.com/content/v1/643c7b777cff26300272736b/1684165766624-055LOEMUIJQHFH8EM8NE/Hotel_Playa_Koralia_045_VDP4511b.jpg?format=1000w',        
         descripcion: 'Perfecta para familias, con amplios espacios interiores y exteriores, acceso directo a la playa y una piscina privada para disfrutar del sol de Bora Bora.',
         precio: '8.800.000  '
     },
     {
-        name: 'Villa de lujo a pie de playa de dos habitaciones',
+        name: 'Villa de lujo a pie de playa',
         img: 'https://www.fourseasons.com/alt/img-opt/~80.1530.0,0000-162,7500-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/BOR/BOR_1425_original.jpg',
         descripcion: 'Rodeada de exuberante vegetación, esta villa ofrece acceso directo a la playa, una piscina privada y elegantes espacios al aire libre.',
         precio: '4.000.000  '
     },
+    {
+        name: 'Cabaña Premium para una escapada romántica',
+        img: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/486418133.jpg?k=3e22854b6c3e5e3a3a5b07adf3e3b7779ca5b661ead0ebbb0310d47a28e2a5af&o=&hp=1',
+        descripcion: 'Contempla la vida marina desde tu terraza privada en este bungaló sobre el agua, ideal para una escapada romantha.',
+        precio: ' 1.000.000'
+    },
+    {
+        name: 'Beachfront Villa - St. Regis Bora Bora Resort',    
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/00/b3/de/royal-beach-villa-with.jpg?w=1400&h=-1&s=1',
+        descripcion: 'Rodeada de exuberante vegetación, esta villa ofrece acceso directo a la playa, una piscina privada y elegantes espacios al aire libre.',        
+        precio: '4.000.000  '    
+    },
+    {   
+        name: 'Overwater Bungalow - Four Seasons Resort',
+        img: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/fe/52/c5/caption.jpg?w=1400&h=-1&s=1',
+        descripcion: 'Rodeada de exuberante vegetación, esta villa ofrece acceso directo a la playa, una piscina privada y elegantes espacios al aire libre.',
+        precio: '4.000.000  '
+    },
+    
 ]);
 
 
@@ -123,7 +142,7 @@ const mostrardetalles = (card) => {
    
 }
 .container3 {
-    backdrop-filter: contrast(40%);
+    backdrop-filter: contrast(60%);
     
  
 }
@@ -157,22 +176,28 @@ const mostrardetalles = (card) => {
 }
 
 .body-card {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     flex-grow: 1;
     padding: 0px 20px 15px;
     text-align: center;
+    height: 170px;
+  background-color: #fff;
+    
    
     
 }
 
 
 .detalles {
+    position: absolute;  
+    bottom: 10px;
     display: flex;
     gap: 10px;
     justify-content: space-between;
+    
  
    
 }

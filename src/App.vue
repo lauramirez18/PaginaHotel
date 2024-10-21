@@ -171,6 +171,7 @@ onBeforeUnmount(() => {
     color: white;
     backdrop-filter: blur(30px);
     box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    padding: 10px;
 }
     
 .tabs{
@@ -178,6 +179,8 @@ onBeforeUnmount(() => {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-left: 10px;
+  
 }
 
 

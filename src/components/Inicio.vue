@@ -96,7 +96,7 @@ h3, h6{
 
 .img-inicio {
     width: 100%;
-    margin-top: -70px;
+    margin-top: 50px;
     height: 655px;
     
 }
@@ -129,6 +129,7 @@ h3, h6{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 1px;
+    font-size: 20px;
 }
 
 .texto a {

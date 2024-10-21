@@ -154,6 +154,20 @@
             </div>
 
         </div>
+        <div class="container2">
+            <h6>Un retiro para el Bienestar</h6>
+            <div class="historia">
+                <div class="historia-texto">
+                    <p>Viva nuestras experiencias para el bienestar de esta temporada, conducidas por nuestros expertos. Abrace su ser mientras lo guían a través de experiencias orientadas al bienestar, al crecimiento personal y a un estilo de vida saludable.</p>
+                    <p><router-link to="/Servicios">Más información</router-link></p>
+                </div>
+                <div class="imagen">
+                    <img
+                        src="https://www.fourseasons.com/alt/img-opt/~65.1701.0,0000-156,2491-3000,0000-1687,5000/publish/content/dam/fourseasons/images/web/BOR/BOR_1385_original.jpg">
+                </div>
+            </div>
+
+        </div>
     </div>
 
 
